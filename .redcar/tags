@@ -1,4 +1,4 @@
-1302615934
+1302617077
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -178,6 +178,7 @@ succ	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function su
 test_homepage	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	  def test_homepage
 times	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function times(count)
 times	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function times(iterator, context)
+title	/Users/erik/code/rails/ticketee/app/helpers/projects_helper.rb	  def title(*parts)
 toArray	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toArray()
 toArray	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toArray()
 toCSSPixels	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toCSSPixels(number)
