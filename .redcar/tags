@@ -1,12 +1,19 @@
-1302599331
+1302615934
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
+CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
+HtmlSelectorsHelpers	/Users/erik/code/rails/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
+NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	module NavigationHelpers
+Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
+ProjectsController	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	class ProjectsController 
+ProjectsHelper	/Users/erik/code/rails/ticketee/app/helpers/projects_helper.rb	module ProjectsHelper
 Str	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/Users/erik/code/rails/ticketee/test/test_helper.rb	class ActiveSupport::TestCase
 Ticketee	/Users/erik/code/rails/ticketee/config/application.rb	module Ticketee
 Type	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Type(o)
+WithinHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 abs	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function abs()
 absolutize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function addMethods(source)
@@ -30,6 +37,7 @@ collect	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function
 compact	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function compact()
 concat	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function concat()
 copy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeOffset(element)
@@ -43,6 +51,7 @@ detect	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function 
 dirCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/Users/erik/code/rails/ticketee/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.down
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -81,6 +90,7 @@ inGroupsOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	funct
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(object)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(pattern)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(value)
+index	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function index(value)
 indexOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function indexOf(item, i)
 initialize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function initialize(object)
@@ -125,11 +135,13 @@ merge	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function m
 merge	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function merge(object)
 methodize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function methodize()
 min	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function min(iterator, context)
+new	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def new
 observe	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	/Users/erik/code/rails/ticketee/public/javascripts/effects.js	function parseColor(color)
 parseJSON	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function parseJSON()
 partition	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function partition(iterator, context)
+path_to	/Users/erik/code/rails/ticketee/features/support/paths.rb	  def path_to(page_name)
 pluck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function pluck(property)
 pointer	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function pointer(event)
 pointerX	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function pointerX(event)
@@ -145,7 +157,9 @@ round	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function r
 scan	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function scan(pattern, iterator)
 select	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function select()
 select	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function select(selector, scope)
+selector_for	/Users/erik/code/rails/ticketee/features/support/selectors.rb	  def selector_for(locator)
 set	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function set(key, value)
+show	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def show
 size	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function size()
 size	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function size()
 sortBy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -185,12 +199,14 @@ unescapeHTML	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	fun
 unfilterJSON	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unfilterJSON(filter)
 uniq	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function uniq(sorted)
 unset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unset(key)
+up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(element, content)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(object)
 values	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function values()
 values	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function values(object)
 viewportOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function viewportOffset(forElement)
+with_scope	/Users/erik/code/rails/ticketee/features/step_definitions/web_steps.rb	  def with_scope(locator)
 without	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function without()
 wrap	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function wrap(wrapper)
 zip	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function zip()

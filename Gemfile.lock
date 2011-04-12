@@ -53,6 +53,7 @@ GEM
       nokogiri (>= 1.4.4)
       rack-test (>= 0.5.7)
     culerity (0.2.15)
+    database_cleaner (0.6.6)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -126,6 +127,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber-rails
+  database_cleaner
   rails (= 3.0.6)
   rspec-rails (= 2.0.0.beta.11)
   sqlite3
