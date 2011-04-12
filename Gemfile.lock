@@ -55,6 +55,7 @@ GEM
     culerity (0.2.15)
     database_cleaner (0.6.6)
     diff-lcs (1.1.2)
+    dynamic_form (1.1.4)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     ffi (1.0.7)
@@ -128,6 +129,7 @@ DEPENDENCIES
   capybara
   cucumber-rails
   database_cleaner
+  dynamic_form
   rails (= 3.0.6)
   rspec-rails (= 2.0.0.beta.11)
   sqlite3
