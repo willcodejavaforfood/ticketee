@@ -1,4 +1,4 @@
-1302699084
+1302699509
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -47,6 +47,7 @@ dasherize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	functi
 defer	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function defer()
 define	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function define(D)
 delay	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function delay(timeout)
+destroy	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def destroy
 detect	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
