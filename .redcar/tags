@@ -1,9 +1,10 @@
-1302700801
+1302704496
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
 CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
+CreateTickets	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	class CreateTickets 
 HtmlSelectorsHelpers	/Users/erik/code/rails/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	module NavigationHelpers
 Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
@@ -11,7 +12,10 @@ ProjectsController	/Users/erik/code/rails/ticketee/app/controllers/projects_cont
 ProjectsHelper	/Users/erik/code/rails/ticketee/app/helpers/projects_helper.rb	module ProjectsHelper
 Str	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/Users/erik/code/rails/ticketee/test/test_helper.rb	class ActiveSupport::TestCase
+Ticket	/Users/erik/code/rails/ticketee/app/models/ticket.rb	class Ticket 
 Ticketee	/Users/erik/code/rails/ticketee/config/application.rb	module Ticketee
+TicketsController	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	class TicketsController 
+TicketsHelper	/Users/erik/code/rails/ticketee/app/helpers/tickets_helper.rb	module TicketsHelper
 Type	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Type(o)
 WithinHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 abs	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function abs()
@@ -38,6 +42,7 @@ compact	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function
 concat	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function concat()
 copy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
+create	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeOffset(element)
@@ -53,6 +58,7 @@ dirCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	functio
 dirNodeCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/Users/erik/code/rails/ticketee/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.down
+down	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.down
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -74,6 +80,8 @@ findAll	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function
 findDOMClass	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findDOMClass(tagName)
 findElement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findElement(event, expression)
 find_project	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def find_project
+find_project	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_project
+find_ticket	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_ticket
 fire	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
 fireContentLoadedEvent	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fireContentLoadedEvent()
 first	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function first()
@@ -139,6 +147,7 @@ merge	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function m
 methodize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function methodize()
 min	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function min(iterator, context)
 new	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def new
+new	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def new
 observe	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	/Users/erik/code/rails/ticketee/public/javascripts/effects.js	function parseColor(color)
@@ -163,6 +172,7 @@ select	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function 
 selector_for	/Users/erik/code/rails/ticketee/features/support/selectors.rb	  def selector_for(locator)
 set	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function set(key, value)
 show	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def show
+show	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def show
 size	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function size()
 size	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function size()
 sortBy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -204,6 +214,7 @@ unfilterJSON	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	fun
 uniq	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function uniq(sorted)
 unset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unset(key)
 up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.up
+up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(element, content)
