@@ -1,4 +1,4 @@
-1302625581
+1302699084
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -55,6 +55,7 @@ down	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.r
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def edit
 element	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function element(event)
 empty	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function empty()
 endsWith	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function endsWith(pattern)
@@ -201,6 +202,7 @@ unfilterJSON	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	fun
 uniq	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function uniq(sorted)
 unset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unset(key)
 up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.up
+update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(element, content)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(object)
