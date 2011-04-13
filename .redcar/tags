@@ -1,4 +1,4 @@
-1302699509
+1302700801
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -73,6 +73,7 @@ find	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fi
 findAll	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findAll(iterator, context)
 findDOMClass	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findDOMClass(tagName)
 findElement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findElement(event, expression)
+find_project	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def find_project
 fire	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
 fireContentLoadedEvent	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fireContentLoadedEvent()
 first	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function first()
