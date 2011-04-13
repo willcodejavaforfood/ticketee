@@ -1,4 +1,4 @@
-1302704496
+1302706560
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -161,6 +161,7 @@ pointerY	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	functio
 pollDoScroll	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function pollDoScroll()
 positionedOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function positionedOffset(element)
 prepareReplacement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function prepareReplacement(replacement)
+project	/Users/erik/code/rails/ticketee/features/support/paths.rb	  def project(name)
 purgeElement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function purgeElement(element)
 reject	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function reject(iterator, context)
 relativize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function relativize(element)
