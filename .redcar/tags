@@ -1,4 +1,4 @@
-1302706560
+1302710345
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -63,6 +63,7 @@ each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function ea
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
 edit	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def edit
+edit	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def edit
 element	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function element(event)
 empty	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function empty()
 endsWith	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function endsWith(pattern)
@@ -217,6 +218,7 @@ unset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function u
 up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
+update	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(element, content)
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(object)
