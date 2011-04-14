@@ -7,6 +7,7 @@
 require 'cucumber/rails'
 require 'capybara/rails'
 require 'capybara/cucumber'
+require 'devise'
 
 
 # Capybara defaults to XPath selectors rather than Webrat's default of CSS3. In

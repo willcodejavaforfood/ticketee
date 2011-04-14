@@ -1,10 +1,11 @@
-1302710689
+1302766558
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
 CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
 CreateTickets	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	class CreateTickets 
+DeviseCreateUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	class DeviseCreateUsers 
 HtmlSelectorsHelpers	/Users/erik/code/rails/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	module NavigationHelpers
 Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
@@ -17,6 +18,7 @@ Ticketee	/Users/erik/code/rails/ticketee/config/application.rb	module Ticketee
 TicketsController	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	class TicketsController 
 TicketsHelper	/Users/erik/code/rails/ticketee/app/helpers/tickets_helper.rb	module TicketsHelper
 Type	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Type(o)
+User	/Users/erik/code/rails/ticketee/app/models/user.rb	class User 
 WithinHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 abs	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function abs()
 absolutize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function absolutize(element)
@@ -60,6 +62,7 @@ dirNodeCheck	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	fun
 dispatch	/Users/erik/code/rails/ticketee/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.down
 down	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.down
+down	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.down
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -218,6 +221,7 @@ uniq	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function un
 unset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unset(key)
 up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.up
+up	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
