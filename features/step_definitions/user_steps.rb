@@ -6,6 +6,6 @@ Given /^there are the following users:$/ do |table|
       :password_confirmation => attributes[:password]
       )
     )
-    @user.confirm! unless unconfirmed
+    @user.confirm! if unconfirmed == 'false'
   end
 end
