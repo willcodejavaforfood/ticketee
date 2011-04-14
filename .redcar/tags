@@ -1,4 +1,4 @@
-1302766558
+1302767686
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
@@ -6,6 +6,7 @@ BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	c
 CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
 CreateTickets	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	class CreateTickets 
 DeviseCreateUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	class DeviseCreateUsers 
+EmailHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/email_steps.rb	module EmailHelpers
 HtmlSelectorsHelpers	/Users/erik/code/rails/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	module NavigationHelpers
 Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
@@ -49,6 +50,7 @@ create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function 
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeOffset(element)
 cumulativeScrollOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
+current_email_address	/Users/erik/code/rails/ticketee/features/step_definitions/email_steps.rb	  def current_email_address
 curry	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function curry()
 dasherize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function dasherize()
 defer	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function defer()
