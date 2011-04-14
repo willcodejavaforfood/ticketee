@@ -5,7 +5,11 @@ Feature: Deleting tickets
   
   Background:
     Given there is a project called "TextMate 2"
-    And that project has a ticket:
+    And there are the following users:
+      |email|password|unconfirmed|
+      |user@ticketee.com|password|false| 
+    And I am signed in as them    
+    And "user@ticketee.com" has created a ticket for this project:
     |title|description|
     |Make it shiny!|Gradients! Starbursts! Oh my!|
     Given I am on the homepage

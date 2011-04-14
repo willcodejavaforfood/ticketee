@@ -5,11 +5,14 @@ Feature: Viewing Tickets
   
   Background:
     Given there is a project called "TextMate 2"
-    And that project has a ticket:
+    And there are the following users:
+      |email|password|unconfirmed|
+      |user@ticketee.com|password|false|    
+    And "user@ticketee.com" has created a ticket for this project:
       | title          | description |
       | Make it shiny! | Gradients! Starbursts! Oh my! |
     And there is a project called "Internet Explorer"
-    And that project has a ticket:
+    And "user@ticketee.com" has created a ticket for this project:
       | title | description|
       | Standards compliance | Isn't a joke. |
       
