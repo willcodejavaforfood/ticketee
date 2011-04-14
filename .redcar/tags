@@ -1,4 +1,5 @@
-1302785917
+1302800149
+AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
@@ -26,9 +27,11 @@ abs	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function abs
 absolutize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function addMethods(source)
 addText	/Users/erik/code/rails/ticketee/public/javascripts/controls.js	function addText(mode, condition)
+admins_only	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	  def admins_only(&block)
 all	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function all(iterator, context)
 any	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function argumentNames()
+authorize_admin!	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	  def authorize_admin!
 bind	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function blank()
@@ -48,6 +51,7 @@ copy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function co
 create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
+css	/Users/erik/code/rails/ticketee/features/step_definitions/application_steps.rb	def css(selector)
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeOffset(element)
 cumulativeScrollOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
@@ -67,6 +71,7 @@ down	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.r
 down	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.down
 down	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.down
 down	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	  def self.down
+down	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	  def self.down
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -227,6 +232,7 @@ up	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	
 up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	  def self.up
+up	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
