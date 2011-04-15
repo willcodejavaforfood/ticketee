@@ -1,4 +1,4 @@
-1302879394
+1302886380
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
@@ -66,6 +66,7 @@ dasherize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	functi
 defer	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function defer()
 define	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function define(D)
 delay	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function delay(timeout)
+destroy	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def destroy
 destroy	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def destroy
 destroy	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def destroy
 detect	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function detect(iterator, context)
@@ -80,6 +81,7 @@ down	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_user
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def edit
 edit	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def edit
 edit	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def edit
 element	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function element(event)
@@ -101,6 +103,7 @@ findElement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	func
 find_project	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def find_project
 find_project	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_project
 find_ticket	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_ticket
+find_user	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def find_user
 fire	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
 fireContentLoadedEvent	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fireContentLoadedEvent()
 first	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function first()
@@ -193,6 +196,8 @@ select	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function 
 select	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function select(selector, scope)
 selector_for	/Users/erik/code/rails/ticketee/features/support/selectors.rb	  def selector_for(locator)
 set	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function set(key, value)
+set_admin	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def set_admin
+show	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def show    
 show	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def show
 show	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def show
 size	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function size()
@@ -241,6 +246,7 @@ up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	 
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	  def self.up
+update	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function update(array, args)
