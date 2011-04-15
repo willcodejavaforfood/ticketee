@@ -1,4 +1,4 @@
-1302872282
+1302875339
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
@@ -52,6 +52,7 @@ collect	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function
 compact	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function compact()
 concat	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function concat()
 copy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
@@ -120,6 +121,7 @@ inGroupsOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	funct
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(object)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(pattern)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(value)
+index	/Users/erik/code/rails/ticketee/app/controllers/admin/base_controllers.rb	  def index
 index	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function index(value)
@@ -166,6 +168,7 @@ merge	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function m
 merge	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function merge(object)
 methodize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function methodize()
 min	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function min(iterator, context)
+new	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def new
 new	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def new
 new	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def new
 observe	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function observe(element, eventName, handler)
