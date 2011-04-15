@@ -1,9 +1,10 @@
-1302800149
+1302872282
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
+BaseController	/Users/erik/code/rails/ticketee/app/controllers/admin/base_controllers.rb	class Admin::BaseController 
 BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
 CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
 CreateTickets	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	class CreateTickets 
@@ -14,6 +15,7 @@ NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	modu
 Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
 ProjectsController	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	class ProjectsController 
 ProjectsHelper	/Users/erik/code/rails/ticketee/app/helpers/projects_helper.rb	module ProjectsHelper
+SeedHelpers	/Users/erik/code/rails/ticketee/spec/support/seed_helpers.rb	module SeedHelpers
 Str	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/Users/erik/code/rails/ticketee/test/test_helper.rb	class ActiveSupport::TestCase
 Ticket	/Users/erik/code/rails/ticketee/app/models/ticket.rb	class Ticket 
@@ -22,6 +24,8 @@ TicketsController	/Users/erik/code/rails/ticketee/app/controllers/tickets_contro
 TicketsHelper	/Users/erik/code/rails/ticketee/app/helpers/tickets_helper.rb	module TicketsHelper
 Type	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function Type(o)
 User	/Users/erik/code/rails/ticketee/app/models/user.rb	class User 
+UsersController	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	class Admin::UsersController 
+UsersHelper	/Users/erik/code/rails/ticketee/app/helpers/admin/users_helper.rb	module Admin::UsersHelper
 WithinHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/web_steps.rb	module WithinHelpers
 abs	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function abs()
 absolutize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function absolutize(element)
@@ -51,6 +55,7 @@ copy	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function co
 create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
+create_user!	/Users/erik/code/rails/ticketee/spec/support/seed_helpers.rb	  def create_user!(attributes={})
 css	/Users/erik/code/rails/ticketee/features/step_definitions/application_steps.rb	def css(selector)
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cumulativeOffset(element)
@@ -115,6 +120,7 @@ inGroupsOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	funct
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(object)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(pattern)
 include	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function include(value)
+index	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function index(value)
 indexOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function indexOf(item, i)
