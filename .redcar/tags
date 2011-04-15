@@ -1,4 +1,4 @@
-1302875339
+1302875908
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
@@ -231,6 +231,7 @@ toQueryPair	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	func
 toQueryParams	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toQueryParams(separator)
 toQueryString	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toQueryString()
 toQueryString	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function toQueryString(object)
+to_s	/Users/erik/code/rails/ticketee/app/models/user.rb	  def to_s
 truncate	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function truncate(length, truncation)
 underscore	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function underscore()
 unescapeHTML	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function unescapeHTML()
