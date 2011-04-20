@@ -1,4 +1,4 @@
-1303288350
+1303289078
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
@@ -112,6 +112,7 @@ fireContentLoadedEvent	/Users/erik/code/rails/ticketee/public/javascripts/protot
 first	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function first()
 flatten	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function flatten()
 floor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function floor()
+for	/Users/erik/code/rails/ticketee/app/models/project.rb	  def self.for(user)
 get	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function get(key)
 getDimensions	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function getDimensions(element)
 getLayout	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function getLayout(element, preCompute)
