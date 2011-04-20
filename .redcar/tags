@@ -1,4 +1,5 @@
-1303305946
+1303307733
+Ability	/Users/erik/code/rails/ticketee/app/models/ability.rb	class Ability
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
@@ -37,10 +38,12 @@ all	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function all
 any	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function argumentNames()
 authorize_admin!	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	  def authorize_admin!
+authorize_create!	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def authorize_create!
 bind	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function blank()
 camelize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function camelize()
+cannot_create_tickets!	/Users/erik/code/rails/ticketee/spec/controllers/tickets_controller_spec.rb	    def cannot_create_tickets!
 capitalize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function capitalize()
 ceil	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function ceil()
 checkDeficiency	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function checkDeficiency(tagName)
@@ -57,6 +60,7 @@ create	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb
 create	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def create
 create	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function create()
+create_permission	/Users/erik/code/rails/ticketee/features/step_definitions/permission_steps.rb	def create_permission(email, object, action)
 create_user!	/Users/erik/code/rails/ticketee/spec/support/seed_helpers.rb	  def create_user!(attributes={})
 css	/Users/erik/code/rails/ticketee/features/step_definitions/application_steps.rb	def css(selector)
 cssNameFor	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function cssNameFor(key)
@@ -105,6 +109,7 @@ findDOMClass	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	fun
 findElement	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function findElement(event, expression)
 find_project	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def find_project
 find_project	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_project
+find_project	/Users/erik/code/rails/ticketee/features/step_definitions/permission_steps.rb	def find_project(name)
 find_ticket	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def find_ticket
 find_user	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def find_user
 fire	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
@@ -131,6 +136,7 @@ index	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	
 index	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def index
 index	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function index(value)
 indexOf	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function indexOf(item, i)
+initialize	/Users/erik/code/rails/ticketee/app/models/ability.rb	  def initialize(user)
 initialize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function initialize(object)
 initialize	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function initialize(start, end, exclusive)
 inject	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function inject(memo, iterator, context)
