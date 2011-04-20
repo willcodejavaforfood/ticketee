@@ -1,16 +1,18 @@
-1302886380
+1303288350
 AddAdminToUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	class AddAdminToUsers 
 AddUserIdToTickets	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	class AddUserIdToTickets 
 Application	/Users/erik/code/rails/ticketee/config/application.rb	  class Application 
 ApplicationController	/Users/erik/code/rails/ticketee/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/erik/code/rails/ticketee/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/Users/erik/code/rails/ticketee/test/performance/browsing_test.rb	class BrowsingTest 
+CreatePermissions	/Users/erik/code/rails/ticketee/db/migrate/20110420073719_create_permissions.rb	class CreatePermissions 
 CreateProjects	/Users/erik/code/rails/ticketee/db/migrate/20110412133033_create_projects.rb	class CreateProjects 
 CreateTickets	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	class CreateTickets 
 DeviseCreateUsers	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	class DeviseCreateUsers 
 EmailHelpers	/Users/erik/code/rails/ticketee/features/step_definitions/email_steps.rb	module EmailHelpers
 HtmlSelectorsHelpers	/Users/erik/code/rails/ticketee/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	/Users/erik/code/rails/ticketee/features/support/paths.rb	module NavigationHelpers
+Permission	/Users/erik/code/rails/ticketee/app/models/permission.rb	class Permission 
 Project	/Users/erik/code/rails/ticketee/app/models/project.rb	class Project 
 ProjectsController	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	class ProjectsController 
 ProjectsHelper	/Users/erik/code/rails/ticketee/app/helpers/projects_helper.rb	module ProjectsHelper
@@ -78,6 +80,7 @@ down	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb
 down	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.down
 down	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	  def self.down
 down	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	  def self.down
+down	/Users/erik/code/rails/ticketee/db/migrate/20110420073719_create_permissions.rb	  def self.down
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator)
 each	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/erik/code/rails/ticketee/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -246,6 +249,7 @@ up	/Users/erik/code/rails/ticketee/db/migrate/20110413133358_create_tickets.rb	 
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414071324_devise_create_users.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414122124_add_user_id_to_tickets.rb	  def self.up
 up	/Users/erik/code/rails/ticketee/db/migrate/20110414131046_add_admin_to_users.rb	  def self.up
+up	/Users/erik/code/rails/ticketee/db/migrate/20110420073719_create_permissions.rb	  def self.up
 update	/Users/erik/code/rails/ticketee/app/controllers/admin/users_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/projects_controller.rb	  def update
 update	/Users/erik/code/rails/ticketee/app/controllers/tickets_controller.rb	  def update

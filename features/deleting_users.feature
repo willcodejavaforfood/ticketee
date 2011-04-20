@@ -21,5 +21,4 @@ Feature: Deleting users
   Scenario: A user cannot delete themselves
     When I follow "admin@ticketee.com"
     And I follow "Delete"
-    Then show me the page
     Then I should see "You cannot delete yourself."

@@ -8,7 +8,8 @@ Feature: Deleting tickets
     And there are the following users:
       |email|password|unconfirmed|
       |user@ticketee.com|password|false| 
-    And I am signed in as them    
+    And I am signed in as them   
+    And "user@ticketee.com" can view the "TextMate 2" project
     And "user@ticketee.com" has created a ticket for this project:
     |title|description|
     |Make it shiny!|Gradients! Starbursts! Oh my!|
